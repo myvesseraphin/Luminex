@@ -96,7 +96,7 @@ export function Hero() {
               className="mt-10 flex items-center gap-4"
             >
               <a
-                href="https://luminex.base44.app"
+                href="https://luminextech.base44.app"
                 className="inline-flex items-center gap-3 px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-full shadow-lg transition transform hover:-translate-y-1"
               >
                 Get Started
