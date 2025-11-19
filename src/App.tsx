@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { LandingPage } from "./pages/LandingPage";
 import { Hero } from "./components/Hero";
-import { SolutionsGrid } from "./components/solutionsGrid";
+import { SolutionsGrid } from "./components/SolutionsGrid";
 import { FeaturesShowcase } from "./components/FeaturesShowcase";
 import { TeamSection } from "./components/TeamSection";
 import { Footer } from "./components/Footer";
