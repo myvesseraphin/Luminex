@@ -98,13 +98,13 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <MailIcon className="w-5 h-5 text-primary flex-shrink-0" />
                 <a href="mailto:info@luminex.rw" className="hover:text-primary transition-colors">
-                  info@luminex.rw
+                  myvesseraphin@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <PhoneIcon className="w-5 h-5 text-primary flex-shrink-0" />
                 <a href="tel:+250788000000" className="hover:text-primary transition-colors">
-                  +250 788 000 000
+                  +250 783 087 172
                 </a>
               </li>
             </ul>
@@ -113,12 +113,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">© 2024 Luminex. All rights reserved.</p>
-          <div className="flex gap-6 text-sm">
-            {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((item, i) => (
-              <a key={i} href="#" className="hover:text-primary transition-colors">{item}</a>
-            ))}
-          </div>
+          <p className="text-gray-500 text-sm">© 2025 Luminex. All rights reserved.</p>
         </div>
 
       </div>
