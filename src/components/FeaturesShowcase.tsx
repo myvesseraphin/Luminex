@@ -2,34 +2,31 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { BarChart3Icon, BatteryChargingIcon, UsersIcon, TrendingUpIcon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const features = [
+const features = (t) => [
   {
     icon: BarChart3Icon,
-    title: 'Real-Time Dashboard',
-    description:
-      'Monitor your solar production, battery levels, and energy consumption at a glance. Get instant insights into your energy flow.',
+    title: t('features.realtime.title'),
+    description: t('features.realtime.description'),
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
   },
   {
     icon: BatteryChargingIcon,
-    title: 'Smart Battery Management',
-    description:
-      'AI-powered optimization schedules charging and discharging. Maximize battery life and energy efficiency automatically.',
+    title: t('features.battery.title'),
+    description: t('features.battery.description'),
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
   },
   {
     icon: UsersIcon,
-    title: 'Community Energy Sharing',
-    description:
-      'Share or sell excess energy with neighbors. Join microgrids and contribute to a sustainable energy community.',
+    title: t('features.community.title'),
+    description: t('features.community.description'),
     image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&q=80',
   },
   {
     icon: TrendingUpIcon,
-    title: 'ROI & Savings Tracker',
-    description:
-      'Calculate your investment returns, track monthly savings, and discover available subsidies and incentives.',
+    title: t('features.roi.title'),
+    description: t('features.roi.description'),
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
   },
 ];
@@ -57,7 +54,7 @@ function FeatureCard({ feature, index }) {
           href="https://luminextech.base44.app"
           className="inline-flex items-center text-orange-600 font-semibold hover:text-orange-400 transition-colors"
         >
-          Learn more →
+          {feature.learnMore}
         </a>
       </div>
 
@@ -75,12 +72,19 @@ function FeatureCard({ feature, index }) {
 }
 
 export function FeaturesShowcase() {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
+
+  const featureList = features(t).map(f => ({
+    ...f,
+    learnMore: t('features.learn_more')
+  }));
 
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
+
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -89,18 +93,19 @@ export function FeaturesShowcase() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Powerful Features for
+            {t('features.section_title1')}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">
-              {' '}Smart Energy
+              {' '}{t('features.section_title2')}
             </span>
           </h2>
+
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Everything you need to optimize your solar energy system, all in one intuitive app.
+            {t('features.section_subtitle')}
           </p>
         </motion.div>
 
         <div>
-          {features.map((feature, index) => (
+          {featureList.map((feature, index) => (
             <FeatureCard key={index} feature={feature} index={index} />
           ))}
         </div>

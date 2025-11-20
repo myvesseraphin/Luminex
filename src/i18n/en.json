@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "brand": "Luminex",
+    "home": "Home",
+    "solutions": "Solutions",
+    "features": "Features",
+    "team": "Our Team",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "heading_top": "SMART SOLAR SOLUTIONS",
+    "title": "Power Your World.",
+    "harness": "Harness Clean Energy.",
+    "subtitle": "Luminex helps households and businesses monitor, manage, and optimize rooftop solar systems with real-time insights, powerful analytics, and smart battery integration.",
+    "cta_get_started": "Get Started",
+    "cta_see_features": "See Features"
+  },
+
+  "cards": {
+    "fast_roi_title": "Fast ROI",
+    "fast_roi_desc": "Payback in years, not decades",
+    "community_title": "Community",
+    "community_desc": "Share or sell excess energy",
+    "solar_panels_title": "Solar panels",
+    "solar_panels_value": "12.4 kWh",
+    "todays_output": "Today’s Output",
+    "rating_value": "4.9",
+    "rating_label": "Rating",
+    "battery_safe": "Battery Safe",
+    "ai_managed": "AI-managed"
+  },
+"solutions": {
+  "section": {
+    "title1": "Seven Challenges,",
+    "title2": "One Solution",
+    "subtitle": "Luminex tackles the biggest obstacles in solar energy adoption with intelligent and beautifully designed technology."
+  },
+
+  "weather": {
+    "title": "Weather-Smart Energy",
+    "description": "Real-time weather forecasts and solar output predictions. Get intelligent suggestions for energy storage and sharing."
+  },
+  "savings": {
+    "title": "Maximize Savings",
+    "description": "Calculate long-term savings, discover government incentives, and join community solar projects to reduce costs."
+  },
+  "grid": {
+    "title": "Grid Integration",
+    "description": "Seamlessly connect to the grid, earn rewards for contributing energy, and help balance community power needs."
+  },
+  "space": {
+    "title": "Space Optimization",
+    "description": "Use AR mapping to find the perfect panel placement. Join shared installations for maximum efficiency."
+  },
+  "environment": {
+    "title": "Environmental Impact",
+    "description": "Track your carbon savings, get recycling reminders, and discover eco-friendly products for sustainable living."
+  },
+  "policy": {
+    "title": "Policy Updates",
+    "description": "Stay informed about subsidies, tariffs, and regulations. Track market trends for panels and batteries."
+  },
+  "performance": {
+    "title": "Performance Monitoring",
+    "description": "AI-powered diagnostics detect issues like dust or shading. Get maintenance suggestions to maximize efficiency."
+  }
+},
+
+
+  "features": {
+    "section_title1": "Powerful Features for",
+    "section_title2": "Smart Energy",
+    "section_subtitle": "Everything you need to optimize your solar energy system, all in one intuitive app.",
+
+    "learn_more": "Learn more →",
+
+    "realtime": {
+      "title": "Real-Time Dashboard",
+      "description": "Monitor your solar production, battery levels, and energy consumption at a glance. Get instant insights into your energy flow."
+    },
+    "battery": {
+      "title": "Smart Battery Management",
+      "description": "AI-powered optimization schedules charging and discharging. Maximize battery life and energy efficiency automatically."
+    },
+    "community": {
+      "title": "Community Energy Sharing",
+      "description": "Share or sell excess energy with neighbors. Join microgrids and contribute to a sustainable energy community."
+    },
+    "roi": {
+      "title": "ROI & Savings Tracker",
+      "description": "Calculate your investment returns, track monthly savings, and discover available subsidies and incentives."
+    }
+  },
+
+  "stats": {
+    "title": "Proven Track Record of Excellence",
+    "subtitle": "Clear impact metrics showing how Luminex is transforming energy usage across Rwanda.",
+
+    "button": "Learn More",
+    "long_term_savings_amount": "$1.72B",
+    "long_term_savings": "Long-term savings from smart energy adoption.",
+    "energy_savings": "45% — Average Energy Savings",
+    "co2_reduced": "2.5t — Tons CO₂ Reduced Yearly",
+    "active_users": "500+ — Active Users in Rwanda",
+    "satisfaction": "98% — Customer Satisfaction"
+  },
+
+  "team": {
+    "title": "Meet the Luminex Team",
+    "subtitle": "Passionate innovators dedicated to advancing smart solar energy solutions in Rwanda.",
+
+    "serge": {
+      "name": "ABIJURU Serge",
+      "role": "Co-Founder & CTO"
+    },
+    "yves": {
+      "name": "MANZI SHIMWA Yves Seraphin",
+      "role": "Founder & CEO"
+    },
+    "albert": {
+      "name": "UWUMUREMYI Albert",
+      "role": "Co-Founder & COO"
+    }
+  },
+
+  "cta": {
+    "title": "Ready to Power Your Future?",
+    "subtitle": "Join the solar revolution in Rwanda. Start optimizing your energy today with Luminex.",
+    "button": "Get Started Now"
+  },
+
+  "footer": {
+    "brand": "Luminex",
+    "description": "Smart solar energy management for Rwanda — empowering communities to harness the sun’s power efficiently and sustainably.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "features": "Features",
+    "team": "Our Team",
+    "login": "Login",
+    "contact": "Contact",
+
+    "address": "Kigali, Rwanda",
+    "email": "myvesseraphin@gmail.com",
+    "phone": "+250 783 087 172",
+
+    "rights": "© 2025 Luminex. All rights reserved.",
+
+    "social": {
+      "facebook": "facebook",
+      "twitter": "twitter",
+      "linkedin": "linkedin"
+    }
+  }
+}

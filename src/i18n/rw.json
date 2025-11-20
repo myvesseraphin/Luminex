@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "brand": "Luminex",
+    "home": "Ahabanza",
+    "solutions": "Ibisubizo",
+    "features": "Ibiranga",
+    "team": "Itsinda",
+    "contact": "Twandikire"
+  },
+
+  "hero": {
+    "heading_top": "IBISUBIZO BY'INGUFU Z'IZUBA BYUBAKIYE KU BWIQWENYE",
+    "title": "Hesha Isi Yawe Urumuri.",
+    "harness": "Kubyaza umusaruro ingufu zisubira",
+    "subtitle": "Luminex ifasha ingo n'ibigo kugenzura, gucunga no kunoza sisitemu z'amashanyarazi yo ku zuba hakoreshejwe amakuru y’igihe nyacyo, isesengura rihanitse, n’iyubatsemo uburyo bw’ubwenge bwo gucunga bateri.",
+    "cta_get_started": "Tangira",
+    "cta_see_features": "Reba Ibiranga"
+  },
+
+  "cards": {
+    "fast_roi_title": "Inyungu Yihuse",
+    "fast_roi_desc": "Igaruka mu myaka mike, si mu myaka myinshi",
+    "community_title": "Umuryango",
+    "community_desc": "Sangiza cyangwa ugurishe ingufu zisagutse",
+    "solar_panels_title": "Panneaux Solaire",
+    "solar_panels_value": "12.4 kWh",
+    "todays_output": "Umusaruro w'Uyu Munsi",
+    "rating_value": "4.9",
+    "rating_label": "Amanota",
+    "battery_safe": "Bateri Itekanye",
+    "ai_managed": "Igenzurwa na AI"
+  },
+
+  "solutions": {
+    "section": {
+      "title1": "Ibibazo Birindwi,",
+      "title2": "Igisubizo Kimwe",
+      "subtitle": "Luminex ikemura imbogamizi zikomeye mu gukoresha ingufu z'izuba hifashishijwe ikoranabuhanga rigezweho kandi ryatekerejwe neza."
+    },
+
+    "weather": {
+      "title": "Ingufu Zihuzwa n'Iheherezo",
+      "description": "Amakuru y'ikirere n'ibipimo by'umusaruro w'izuba mu gihe nyacyo. Ubona inama z’ubwenge ku kubika no gusangira ingufu."
+    },
+    "savings": {
+      "title": "Kunoza Umusanzu n'Ubukungu",
+      "description": "Bara uburyo uzigama mu gihe kirekire, umenye inyungu za Leta, kandi winjire mu mishinga y’ingufu rusange yo kugabanya ibiciro."
+    },
+    "grid": {
+      "title": "Kwihuza n'Urugomero",
+      "description": "Wihuza n'urugomero byoroshye, winjize inyungu utanga ingufu, kandi ufasha mu kunganira ibyifuzo by’umuryango."
+    },
+    "space": {
+      "title": "Guteza Imbere Uko Ahantu Hakoreshwa",
+      "description": "Koresha AR mu gushaka ahantu heza ho gushyira panneaux. Winjire muri installations rusange ngo ugerweho n’akandi gakino."
+    },
+    "environment": {
+      "title": "Ingaruka ku Bidukikije",
+      "description": "Kurikira uko ugabanya CO₂, ubone udukwibutsa two kubungabunga no kurengera ibidukikije."
+    },
+    "policy": {
+      "title": "Amategeko n'Ingamba",
+      "description": "Menya amakuru mashya ku ngengo, amatangazo y’ingengo, n’amabwiriza. Komeza ukurikirane uko isoko ry'imirasire n’amabateri rihagaze."
+    },
+    "performance": {
+      "title": "Igenzura ry'Imikorere",
+      "description": "AI itahura ibibazo by’ifu, igicucu, cyangwa imikorere mibi. Ubona inama zo kubungabunga ngo wongere ubushobozi."
+    }
+  },
+
+  "features": {
+    "section_title1": "Ibiranga Bikomeye",
+    "section_title2": "by'Ingufu Z'Ubwenge",
+    "section_subtitle": "Byose ukeneye ngo unoze uburyo ukoresha ingufu z'izuba — byose muri app imwe yumvikana kandi yoroshye.",
+
+    "learn_more": "Menya byinshi →",
+
+    "realtime": {
+      "title": "Dashboard y'Igihe Nyacyo",
+      "description": "Genzura umusaruro w'izuba, ubushobozi bwa bateri, n'uko ukoresha amashanyarazi mu buryo bwihuse."
+    },
+    "battery": {
+      "title": "Gucunga Bateri mu Bwenge",
+      "description": "AI igenzura igihe cyo gushyiramo no gusohora amashanyarazi kugira ngo ubuziranenge bwa bateri burusheho kumara igihe."
+    },
+    "community": {
+      "title": "Gusangira Ingufu mu Muryango",
+      "description": "Sangira cyangwa ugurishe ingufu zisagutse. Jya mu matsinda y’abaturage akoresha ingufu zisangiwe."
+    },
+    "roi": {
+      "title": "Kugenzura ROI n'Ubwizigame",
+      "description": "Bara inyungu, ukurikirane uko uzigama buri kwezi, kandi umenye izindi nyungu ziboneka."
+    }
+  },
+
+  "stats": {
+    "title": "Ibyo Twagezeho Birivugira",
+    "subtitle": "Imibare igaragaza uko Luminex ihindura ikoreshwa ry’ingufu mu Rwanda.",
+
+    "button": "Menya byinshi",
+    "long_term_savings_amount": "$1.72B",
+    "long_term_savings": "Ubwizigame bw’igihe kirekire kubera ikoreshwa ry’ingufu z’ubwenge.",
+    "energy_savings": "45% — Umusanzu wo Kuzigama Ingufu",
+    "co2_reduced": "2.5t — Toni za CO₂ Zigabanuka Buri Mwaka",
+    "active_users": "500+ — Abakoresha mu Rwanda",
+    "satisfaction": "98% — Kunezerwa kw’Abakiriya"
+  },
+
+  "team": {
+    "title": "Sobanukirwa n'Itsinda rya Luminex",
+    "subtitle": "Abahanga n'abashakashatsi biyemeje guteza imbere ibisubizo by’ingufu z'izuba mu Rwanda.",
+
+    "serge": {
+      "name": "ABIJURU Serge",
+      "role": "Co-Founder & CTO"
+    },
+    "yves": {
+      "name": "MANZI SHIMWA Yves Seraphin",
+      "role": "Founder & CEO"
+    },
+    "albert": {
+      "name": "UWUMUREMYI Albert",
+      "role": "Co-Founder & COO"
+    }
+  },
+
+  "cta": {
+    "title": "Witeguye Guhindura Ejo Hawe?",
+    "subtitle": "Jya mu mpinduramatwara y’ingufu z'izuba mu Rwanda. Tangira kunoza ikoreshwa ry’ingufu ukoresha Luminex.",
+    "button": "Tangira Ubu"
+  },
+
+  "footer": {
+    "brand": "Luminex",
+    "description": "Uburyo bw’ubwenge bwo gucunga ingufu z'izuba mu Rwanda — bushoboza abaturage gukoresha imbaraga z'izuba neza kandi ku buryo burambye.",
+
+    "quickLinks": "Amahuzanyobora",
+    "about": "Ibyerekeye",
+    "features": "Ibiranga",
+    "team": "Itsinda",
+    "login": "Kwinjira",
+    "contact": "Twandikire",
+
+    "address": "Kigali, Rwanda",
+    "email": "myvesseraphin@gmail.com",
+    "phone": "+250 783 087 172",
+
+    "rights": "© 2025 Luminex. Uburenganzira bwose burabitswe.",
+
+    "social": {
+      "facebook": "facebook",
+      "twitter": "twitter",
+      "linkedin": "linkedin"
+    }
+  }
+}

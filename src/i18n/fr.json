@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "brand": "Luminex",
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "features": "Fonctionnalités",
+    "team": "Notre Équipe",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "heading_top": "SOLUTIONS SOLAIRES INTELLIGENTES",
+    "title": "Alimentez Votre Monde.",
+    "harness": "Exploitez l’énergie renouvelable",
+    "subtitle": "Luminex aide les ménages et les entreprises à surveiller, gérer et optimiser les systèmes solaires grâce à des données en temps réel, des analyses avancées et une intégration intelligente des batteries.",
+    "cta_get_started": "Commencer",
+    "cta_see_features": "Voir les Fonctionnalités"
+  },
+
+  "cards": {
+    "fast_roi_title": "ROI Rapide",
+    "fast_roi_desc": "Rentabilité en quelques années, pas en décennies",
+    "community_title": "Communauté",
+    "community_desc": "Partager ou vendre l’énergie excédentaire",
+    "solar_panels_title": "Panneaux solaires",
+    "solar_panels_value": "12.4 kWh",
+    "todays_output": "Production d’Aujourd’hui",
+    "rating_value": "4.9",
+    "rating_label": "Évaluation",
+    "battery_safe": "Batterie Sécurisée",
+    "ai_managed": "Gérée par IA"
+  },
+
+  "solutions": {
+    "section": {
+      "title1": "Sept Défis,",
+      "title2": "Une Solution",
+      "subtitle": "Luminex résout les plus grands obstacles à l’adoption de l’énergie solaire grâce à une technologie intelligente et élégamment conçue."
+    },
+
+    "weather": {
+      "title": "Énergie Adaptée à la Météo",
+      "description": "Prévisions météorologiques et estimations de production solaire en temps réel. Obtenez des suggestions intelligentes pour le stockage ou le partage d’énergie."
+    },
+    "savings": {
+      "title": "Maximiser les Économies",
+      "description": "Calculez vos économies à long terme, découvrez les incitations gouvernementales et rejoignez des projets solaires communautaires pour réduire les coûts."
+    },
+    "grid": {
+      "title": "Intégration au Réseau",
+      "description": "Connectez-vous facilement au réseau, gagnez des récompenses en fournissant de l’énergie et contribuez à équilibrer les besoins énergétiques de la communauté."
+    },
+    "space": {
+      "title": "Optimisation de l’Espace",
+      "description": "Utilisez la cartographie AR pour trouver le meilleur emplacement pour vos panneaux. Rejoignez des installations partagées pour une efficacité maximale."
+    },
+    "environment": {
+      "title": "Impact Environnemental",
+      "description": "Suivez vos économies de CO₂, recevez des rappels de recyclage et découvrez des produits écoresponsables."
+    },
+    "policy": {
+      "title": "Mises à Jour des Politiques",
+      "description": "Restez informé des subventions, tarifs et réglementations. Suivez les tendances du marché concernant les panneaux et les batteries."
+    },
+    "performance": {
+      "title": "Suivi des Performances",
+      "description": "Des diagnostics IA détectent des problèmes comme la poussière ou l’ombrage. Recevez des conseils d’entretien pour maximiser l’efficacité."
+    }
+  },
+
+  "features": {
+    "section_title1": "Fonctionnalités Puissantes pour",
+    "section_title2": "une Énergie Intelligente",
+    "section_subtitle": "Tout ce dont vous avez besoin pour optimiser votre système solaire, regroupé dans une application intuitive.",
+
+    "learn_more": "En savoir plus →",
+
+    "realtime": {
+      "title": "Tableau de Bord en Temps Réel",
+      "description": "Surveillez la production solaire, les niveaux de batterie et la consommation énergétique en un coup d’œil. Obtenez des informations instantanées."
+    },
+    "battery": {
+      "title": "Gestion Intelligente des Batteries",
+      "description": "Une optimisation IA programme la charge et la décharge pour maximiser la durée de vie et l’efficacité de la batterie."
+    },
+    "community": {
+      "title": "Partage d’Énergie Communautaire",
+      "description": "Partagez ou vendez l’énergie excédentaire avec vos voisins. Rejoignez des micro-réseaux pour un avenir durable."
+    },
+    "roi": {
+      "title": "Suivi du ROI & des Économies",
+      "description": "Calculez vos retours sur investissement, suivez vos économies mensuelles et découvrez les aides disponibles."
+    }
+  },
+
+  "stats": {
+    "title": "Des Résultats Qui Parlent",
+    "subtitle": "Des chiffres clairs montrant comment Luminex transforme l’utilisation de l’énergie au Rwanda.",
+
+    "button": "En Savoir Plus",
+    "long_term_savings_amount": "$1.72B",
+    "long_term_savings": "Économies à long terme grâce à l’énergie intelligente.",
+    "energy_savings": "45% — Économies Moyennes d’Énergie",
+    "co2_reduced": "2.5t — Tonnes de CO₂ Réduites par An",
+    "active_users": "500+ — Utilisateurs Actifs au Rwanda",
+    "satisfaction": "98% — Satisfaction Client"
+  },
+
+  "team": {
+    "title": "Découvrez l'Équipe Luminex",
+    "subtitle": "Des innovateurs passionnés dédiés à l’avancement des solutions solaires intelligentes au Rwanda.",
+
+    "serge": {
+      "name": "ABIJURU Serge",
+      "role": "Co-fondateur & CTO"
+    },
+    "yves": {
+      "name": "MANZI SHIMWA Yves Seraphin",
+      "role": "Fondateur & CEO"
+    },
+    "albert": {
+      "name": "UWUMUREMYI Albert",
+      "role": "Co-fondateur & COO"
+    }
+  },
+
+  "cta": {
+    "title": "Prêt à Alimenter Votre Avenir ?",
+    "subtitle": "Rejoignez la révolution solaire au Rwanda. Optimisez votre énergie dès aujourd’hui avec Luminex.",
+    "button": "Commencer Maintenant"
+  },
+
+  "footer": {
+    "brand": "Luminex",
+    "description": "Gestion intelligente de l’énergie solaire au Rwanda — permettant aux communautés de tirer parti du soleil de manière efficace et durable.",
+    "quickLinks": "Liens Rapides",
+    "about": "À Propos",
+    "features": "Fonctionnalités",
+    "team": "Notre Équipe",
+    "login": "Connexion",
+    "contact": "Contact",
+
+    "address": "Kigali, Rwanda",
+    "email": "myvesseraphin@gmail.com",
+    "phone": "+250 783 087 172",
+
+    "rights": "© 2025 Luminex. Tous droits réservés.",
+
+    "social": {
+      "facebook": "facebook",
+      "twitter": "twitter",
+      "linkedin": "linkedin"
+    }
+  }
+}

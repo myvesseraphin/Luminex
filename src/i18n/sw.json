@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "brand": "Luminex",
+    "home": "Nyumbani",
+    "solutions": "Suluhisho",
+    "features": "Vipengele",
+    "team": "Timu Yetu",
+    "contact": "Wasiliana Nasi"
+  },
+
+  "hero": {
+    "heading_top": "SULUHISHO MAHIRI YA NISHATI YA JUA",
+    "title": "Washa Dunia Yako.",
+    "harness": "Tumia nishati inayorudiwa",
+    "subtitle": "Luminex inasaidia kaya na biashara kufuatilia, kusimamia, na kuboresha mifumo ya paa ya nishati ya jua kwa takwimu za wakati halisi, uchanganuzi mahiri, na udhibiti wa betri wenye akili.",
+    "cta_get_started": "Anza",
+    "cta_see_features": "Tazama Vipengele"
+  },
+
+  "cards": {
+    "fast_roi_title": "Faida ya Haraka",
+    "fast_roi_desc": "Malipo ndani ya miaka michache, si miongo",
+    "community_title": "Jamii",
+    "community_desc": "Gawa au uza nguvu zinazozidi",
+    "solar_panels_title": "Paneli za Jua",
+    "solar_panels_value": "12.4 kWh",
+    "todays_output": "Uzalishaji wa Leo",
+    "rating_value": "4.9",
+    "rating_label": "Kiwango",
+    "battery_safe": "Betri Salama",
+    "ai_managed": "Inadhibitiwa na AI"
+  },
+
+  "solutions": {
+    "section": {
+      "title1": "Changamoto Saba,",
+      "title2": "Suluhisho Moja",
+      "subtitle": "Luminex inatatua changamoto kubwa katika matumizi ya nishati ya jua kwa teknolojia ya kisasa na iliyoundwa kwa ustadi."
+    },
+
+    "weather": {
+      "title": "Nishati Inayolingana na Hali ya Hewa",
+      "description": "Utabiri wa hali ya hewa na makadirio ya uzalishaji wa jua kwa wakati halisi. Pokea mapendekezo mahiri ya uhifadhi na ushirikiano wa nishati."
+    },
+    "savings": {
+      "title": "Ongeza Akiba",
+      "description": "Hesabu akiba ya muda mrefu, gundua ruzuku za serikali, na ujiunge na miradi ya nishati ya jamii kupunguza gharama."
+    },
+    "grid": {
+      "title": "Muunganiko na Gridi",
+      "description": "Unganisha kwa urahisi na gridi, pata zawadi kwa kuchangia nishati, na saidia kusawazisha mahitaji ya jamii."
+    },
+    "space": {
+      "title": "Uboreshaji wa Nafasi",
+      "description": "Tumia ramani ya AR kupata mahali pazuri pa kufunga paneli. Jihusishe na ufungaji wa pamoja ili kuongeza ufanisi."
+    },
+    "environment": {
+      "title": "Athari kwa Mazingira",
+      "description": "Fuatilia upunguzaji wa kaboni, pokea ukumbusho wa urejelezaji, na gundua bidhaa rafiki kwa mazingira."
+    },
+    "policy": {
+      "title": "Sera na Kanuni",
+      "description": "Pata taarifa kuhusu ruzuku, ushuru, na kanuni. Fuatilia mwenendo wa soko la paneli na betri."
+    },
+    "performance": {
+      "title": "Ufuatiliaji wa Utendaji",
+      "description": "Utambuzi unaotumia AI hutambua matatizo kama vumbi au kivuli. Pokea mapendekezo ya matengenezo ili kuongeza ufanisi."
+    }
+  },
+
+  "features": {
+    "section_title1": "Vipengele Vizuri",
+    "section_title2": "kwa Nishati Mahiri",
+    "section_subtitle": "Vyote unavyohitaji kuboresha mfumo wako wa nishati ya jua — vyote kwenye programu moja rahisi kutumia.",
+
+    "learn_more": "Jifunze zaidi →",
+
+    "realtime": {
+      "title": "Dashibodi ya Wakati Halisi",
+      "description": "Fuatilia uzalishaji wa jua, kiwango cha betri, na matumizi ya nishati kwa urahisi. Pata maarifa papo hapo."
+    },
+    "battery": {
+      "title": "Usimamizi Mahiri wa Betri",
+      "description": "Uboreshaji unaotumia AI kupanga chaji na utokaji. Ongeza maisha ya betri na ufanisi wa nishati."
+    },
+    "community": {
+      "title": "Mgawanyo wa Nishati ya Jamii",
+      "description": "Gawa au uza nishati inayozidi kwa majirani. Jiunge na microgrids kusaidia jamii endelevu."
+    },
+    "roi": {
+      "title": "Kifuatiliaji cha ROI na Akiba",
+      "description": "Hesabu faida ya uwekezaji, fuatilia akiba ya kila mwezi, na gundua ruzuku zinazopatikana."
+    }
+  },
+
+  "stats": {
+    "title": "Rekodi ya Utendaji Bora",
+    "subtitle": "Takwimu zilizo wazi zinazoonyesha jinsi Luminex inavyobadilisha matumizi ya nishati nchini Rwanda.",
+
+    "button": "Jifunze zaidi",
+    "long_term_savings_amount": "$1.72B",
+    "long_term_savings": "Akiba ya muda mrefu kutokana na matumizi ya nishati mahiri.",
+    "energy_savings": "45% — Akiba ya wastani ya nishati",
+    "co2_reduced": "2.5t — Tani za CO₂ zinazopunguzwa kila mwaka",
+    "active_users": "500+ — Watumiaji Hai nchini Rwanda",
+    "satisfaction": "98% — Kuridhika kwa Wateja"
+  },
+
+  "team": {
+    "title": "Kutana na Timu ya Luminex",
+    "subtitle": "Wabunifu wenye shauku wanaoendeleza suluhisho la nishati ya jua nchini Rwanda.",
+
+    "serge": {
+      "name": "ABIJURU Serge",
+      "role": "Mwanzilishi Mwenza & CTO"
+    },
+    "yves": {
+      "name": "MANZI SHIMWA Yves Seraphin",
+      "role": "Mwanzilishi & CEO"
+    },
+    "albert": {
+      "name": "UWUMUREMYI Albert",
+      "role": "Mwanzilishi Mwenza & COO"
+    }
+  },
+
+  "cta": {
+    "title": "Uko Tayari Kuweka Mustakabali Wako?",
+    "subtitle": "Jiunge na mapinduzi ya nishati ya jua nchini Rwanda. Anza kuboresha matumizi ya nishati yako kupitia Luminex.",
+    "button": "Anza Sasa"
+  },
+
+  "footer": {
+    "brand": "Luminex",
+    "description": "Usimamizi mahiri wa nishati ya jua kwa Rwanda — kuwezesha jamii kutumia nguvu ya jua kwa ufanisi na uendelevu.",
+
+    "quickLinks": "Viungo vya Haraka",
+    "about": "Kuhusu Sisi",
+    "features": "Vipengele",
+    "team": "timu",
+    "login": "Ingia",
+    "contact": "Wasiliana",
+
+    "address": "Kigali, Rwanda",
+    "email": "myvesseraphin@gmail.com",
+    "phone": "+250 783 087 172",
+
+    "rights": "© 2025 Luminex. Haki zote zimehifadhiwa.",
+
+    "social": {
+      "facebook": "facebook",
+      "twitter": "twitter",
+      "linkedin": "linkedin"
+    }
+  }
+}

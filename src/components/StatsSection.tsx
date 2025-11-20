@@ -1,24 +1,26 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-
-const stats = [
-  { value: "45%", label: "Average Energy Savings" },
-  { value: "2.5t", label: "Tons CO₂ Reduced Yearly" },
-  { value: "500+", label: "Active Users in Rwanda" },
-  { value: "98%", label: "Customer Satisfaction" },
-];
+import { useTranslation } from "react-i18next";
 
 export function StatsSection() {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const stats = [
+    { value: "45%", label: t("stats.energy_savings") },
+    { value: "2.5t", label: t("stats.co2_reduced") },
+    { value: "500+", label: t("stats.active_users") },
+    { value: "98%", label: t("stats.satisfaction") },
+  ];
 
   return (
     <section className="py-24 bg-white text-gray-900">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Left-aligned intro section */}
+
+        {/* Left Section */}
         <div className="grid lg:grid-cols-2 gap-10 items-center mb-20">
-          {/* Left Text Block */}
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 20 }}
@@ -27,20 +29,19 @@ export function StatsSection() {
             className="space-y-4"
           >
             <h2 className="text-4xl md:text-5xl font-extrabold">
-              Proven Track Record of Excellence
+              {t("stats.title")}
             </h2>
+
             <p className="text-gray-600 text-lg max-w-md">
-              Clear impact metrics showing how Luminex is transforming energy
-              usage across Rwanda.
+              {t("stats.subtitle")}
             </p>
 
-            {/* Button */}
             <button className="px-5 py-2 bg-orange-500 text-white rounded-full font-semibold hover:bg-orange-600 transition">
-              Learn More
+              {t("stats.button")}
             </button>
           </motion.div>
 
-          {/* Main Highlighted Metric */}
+          {/* Big Highlighted Number */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -49,12 +50,12 @@ export function StatsSection() {
           >
             <h3 className="text-6xl md:text-7xl font-bold">$1.72B</h3>
             <p className="text-gray-600 text-lg mt-2">
-              Long-term savings from smart energy adoption.
+              {t("stats.long_term_savings")}
             </p>
           </motion.div>
         </div>
 
-        {/* Stats Grid (clean + spaced like reference) */}
+        {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           {stats.map((stat, index) => (
             <motion.div
