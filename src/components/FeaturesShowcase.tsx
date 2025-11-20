@@ -41,15 +41,17 @@ function FeatureCard({ feature, index }) {
       ref={ref}
       initial={{ opacity: 0, x: isEven ? -50 : 50 }}
       animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: isEven ? -50 : 50 }}
-      transition={{ duration: 0.8, delay: 0.2 }}
+      transition={{ duration: 0.8, delay: 0.15 }}
       className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center mb-24`}
     >
       <div className="flex-1">
-        <div className="w-16 h-16 bg-gradient-to-br from-orange-600 to-orange-400 rounded-2xl flex items-center justify-center mb-6">
-          <feature.icon className="w-8 h-8 text-white" />
+        <div className="w-16 h-16 bg-white border border-orange-200 rounded-2xl flex items-center justify-center mb-6 shadow-sm">
+          <feature.icon className="w-8 h-8 text-orange-600" />
         </div>
+        
         <h3 className="text-3xl font-bold text-gray-900 mb-4">{feature.title}</h3>
         <p className="text-lg text-gray-700 leading-relaxed mb-6">{feature.description}</p>
+
         <a
           href="https://luminextech.base44.app"
           className="inline-flex items-center text-orange-600 font-semibold hover:text-orange-400 transition-colors"
@@ -62,7 +64,7 @@ function FeatureCard({ feature, index }) {
         <motion.div
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
-          className="rounded-2xl overflow-hidden shadow-2xl"
+          className="rounded-2xl overflow-hidden shadow-xl"
         >
           <img src={feature.image} alt={feature.title} className="w-full h-[400px] object-cover" />
         </motion.div>
@@ -76,15 +78,14 @@ export function FeaturesShowcase() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
-  const featureList = features(t).map(f => ({
+  const featureList = features(t).map((f) => ({
     ...f,
-    learnMore: t('features.learn_more')
+    learnMore: t('features.learn_more'),
   }));
 
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -93,9 +94,9 @@ export function FeaturesShowcase() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            {t('features.section_title1')}
+            {t('features.section_title1')}{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">
-              {' '}{t('features.section_title2')}
+              {t('features.section_title2')}
             </span>
           </h2>
 
