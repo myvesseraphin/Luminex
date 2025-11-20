@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export function StatsSection() {
   const { t } = useTranslation();
@@ -19,7 +20,7 @@ export function StatsSection() {
     <section className="py-24 bg-white text-gray-900">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Left Section */}
+        {/* LEFT SECTION */}
         <div className="grid lg:grid-cols-2 gap-10 items-center mb-20">
           <motion.div
             ref={ref}
@@ -36,26 +37,32 @@ export function StatsSection() {
               {t("stats.subtitle")}
             </p>
 
-            <button className="px-5 py-2 bg-orange-500 text-white rounded-full font-semibold hover:bg-orange-600 transition">
+            {/* BUTTON FIXED → LINK TO /features */}
+            <Link
+              to="/features"
+              className="inline-block px-5 py-2 bg-orange-500 text-white rounded-full font-semibold hover:bg-orange-600 transition"
+            >
               {t("stats.button")}
-            </button>
+            </Link>
           </motion.div>
 
-          {/* Big Highlighted Number */}
+          {/* BIG HIGHLIGHTED NUMBER */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-left"
           >
-            <h3 className="text-6xl md:text-7xl font-bold">$1.72B</h3>
+            <h3 className="text-6xl md:text-7xl font-bold">
+              {t("stats.highlight_value")}
+            </h3>
             <p className="text-gray-600 text-lg mt-2">
               {t("stats.long_term_savings")}
             </p>
           </motion.div>
         </div>
 
-        {/* Stats Grid */}
+        {/* STATS GRID */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           {stats.map((stat, index) => (
             <motion.div

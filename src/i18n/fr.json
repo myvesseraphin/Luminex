@@ -94,16 +94,16 @@
   },
 
   "stats": {
-    "title": "Des Résultats Qui Parlent",
-    "subtitle": "Des chiffres clairs montrant comment Luminex transforme l’utilisation de l’énergie au Rwanda.",
+    "title": "Indicateurs Énergétiques Puissants",
+    "subtitle": "Suivez vos économies d’énergie, votre efficacité et vos performances globales.",
+    "button": "En savoir plus",
+    "highlight_value": "$1.72B",
+    "long_term_savings": "Économies prévues à long terme",
 
-    "button": "En Savoir Plus",
-    "long_term_savings_amount": "$1.72B",
-    "long_term_savings": "Économies à long terme grâce à l’énergie intelligente.",
-    "energy_savings": "45% — Économies Moyennes d’Énergie",
-    "co2_reduced": "2.5t — Tonnes de CO₂ Réduites par An",
-    "active_users": "500+ — Utilisateurs Actifs au Rwanda",
-    "satisfaction": "98% — Satisfaction Client"
+    "energy_savings": "Énergie économisée",
+    "co2_reduced": "CO₂ réduit",
+    "active_users": "Utilisateurs actifs",
+    "satisfaction": "Satisfaction des clients"
   },
 
   "team": {

@@ -92,21 +92,21 @@
       "description": "Bara inyungu, ukurikirane uko uzigama buri kwezi, kandi umenye izindi nyungu ziboneka."
     }
   },
-
+  
   "stats": {
-    "title": "Ibyo Twagezeho Birivugira",
-    "subtitle": "Imibare igaragaza uko Luminex ihindura ikoreshwa ry’ingufu mu Rwanda.",
-
+    "title": "Ibigaragaza ubushobozi bw'ingufu",
+    "subtitle": "Kurikira uburyo ukoresha ingufu, ibyo ubika n’imikorere rusange.",
     "button": "Menya byinshi",
-    "long_term_savings_amount": "$1.72B",
-    "long_term_savings": "Ubwizigame bw’igihe kirekire kubera ikoreshwa ry’ingufu z’ubwenge.",
-    "energy_savings": "45% — Umusanzu wo Kuzigama Ingufu",
-    "co2_reduced": "2.5t — Toni za CO₂ Zigabanuka Buri Mwaka",
-    "active_users": "500+ — Abakoresha mu Rwanda",
-    "satisfaction": "98% — Kunezerwa kw’Abakiriya"
+    "highlight_value": "$1.72B",
+    "long_term_savings": "Ubwizigame bw’igihe kirekire buteganyijwe",
+
+    "energy_savings": "Ingufu zabitswe",
+    "co2_reduced": "CO₂ yagabanutse",
+    "active_users": "Abakoresha bakiriho",
+    "satisfaction": "Icyizere cy'abakiriya"
   },
 
-  "team": {
+   "team": {
     "title": "Sobanukirwa n'Itsinda rya Luminex",
     "subtitle": "Abahanga n'abashakashatsi biyemeje guteza imbere ibisubizo by’ingufu z'izuba mu Rwanda.",
 

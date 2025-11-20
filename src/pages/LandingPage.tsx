@@ -7,8 +7,11 @@ import { TeamSection } from '../components/TeamSection';
 import { Footer } from '../components/Footer';
 import { motion } from 'framer-motion';
 import { ArrowRightIcon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export function LandingPage() {
+  const { t } = useTranslation();
+
   return (
     <div className="w-full min-h-screen bg-white">
       <Hero />
@@ -17,7 +20,7 @@ export function LandingPage() {
       <StatsSection />
       <TeamSection />
 
-      {/* Final CTA Section – Clean White/Orange Style */}
+      {/* Final CTA Section – Translated */}
       <section className="py-24 bg-white border-t border-orange-100">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
@@ -28,19 +31,18 @@ export function LandingPage() {
             className="p-12 rounded-3xl shadow-lg bg-white border border-orange-200"
           >
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
-              Ready to Power Your Future?
+              {t("cta.title")}
             </h2>
 
             <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-              Join the solar revolution in Rwanda. Start optimizing your energy today
-              with Luminex.
+              {t("cta.subtitle")}
             </p>
 
             <a
               href="https://luminextech.base44.app"
               className="group inline-flex items-center gap-3 px-10 py-5 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-semibold text-lg shadow-lg transition-all"
             >
-              Get Started Now
+              {t("cta.button")}
               <ArrowRightIcon className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
             </a>
           </motion.div>

@@ -93,18 +93,17 @@
     }
   },
 
-  "stats": {
-    "title": "Proven Track Record of Excellence",
-    "subtitle": "Clear impact metrics showing how Luminex is transforming energy usage across Rwanda.",
-
-    "button": "Learn More",
-    "long_term_savings_amount": "$1.72B",
-    "long_term_savings": "Long-term savings from smart energy adoption.",
-    "energy_savings": "45% — Average Energy Savings",
-    "co2_reduced": "2.5t — Tons CO₂ Reduced Yearly",
-    "active_users": "500+ — Active Users in Rwanda",
-    "satisfaction": "98% — Customer Satisfaction"
-  },
+ "stats": {
+  "title": "Powerful Energy Insights",
+  "subtitle": "Track your savings, efficiency and overall performance.",
+  "button": "Learn More",
+  "highlight_value": "$1.72B",
+  "long_term_savings": "Projected long-term savings",
+  "energy_savings": "Energy Saved",
+  "co2_reduced": "CO₂ Reduced",
+  "active_users": "Active Users",
+  "satisfaction": "Customer Satisfaction"
+},
 
   "team": {
     "title": "Meet the Luminex Team",
